@@ -1,0 +1,11 @@
+stix2
+html2text
+numpy
+pandas
+tkintertable
+tksheet
+neo4j
+python-dotenv
+openpyxl
+yake
+yfiles_jupyter_graphs
