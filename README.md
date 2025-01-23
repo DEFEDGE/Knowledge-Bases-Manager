@@ -48,7 +48,14 @@ An example MACM is provided (`Wordpress.macm`), representing a system model cons
     ```bash
     cd AttackGraphGen
     ```
-3. Start using the Jupyter Notebook.
+3. Create a .env file with the following content:
+    ```bash
+    NEO4J_URI=bolt://localhost:7687
+    NEO4J_USER=neo4j
+    NEO4J_PASSWORD=yourpassword
+    ```
+    Replace `yourpassword` with the password you set for the Neo4j database.
+4. Start using the Jupyter Notebook.
 
 ## License
 
